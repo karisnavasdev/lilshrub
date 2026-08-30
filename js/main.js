@@ -1,4 +1,4 @@
-const CA = "SHRUBSOON";
+const CA = "0x1af37a78b7968395f8cc119443e1f639a928d5ed";
 
 const toast = document.getElementById("toast");
 function showToast(msg) {
@@ -19,7 +19,7 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
       document.execCommand("copy");
       el.remove();
     }
-    showToast("CA copied — SHRUBSOON");
+    showToast("CA copied — 0x1af3...d5ed");
   });
 });
 
