@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOODSHRUB — $HOODSHRUB</title>
+  <meta name="description" content="HOODSHRUB ($HOODSHRUB) — peak camouflage, peak content. A wholesome community memecoin inspired by a hedgehog in a shrub." />
+  <link rel="icon" href="assets/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Lilita+One&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <img class="loader-coin" src="assets/coin.png" alt="" />
+      <p>HOODSHRUB is blending in...</p>
+    </div>
+  </div>
+
+  <div class="leaf-layer" id="leaves"></div>
+  <div class="coin-layer" id="coins"></div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <img src="assets/logo.jpg" alt="HOODSHRUB hedgehog" />
+      HOODSHRUB
+    </a>
+    <nav>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#story">Story</a></li>
+        <li><a href="#camo">Camouflage</a></li>
+        <li><a href="#token">$HOODSHRUB</a></li>
+        <li><a href="#buy">How to buy</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a class="btn btn-gold" href="#buy">Buy $HOODSHRUB</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <figure class="hero-banner">
+        <img src="assets/banner.png" width="2172" height="724" alt="HOODSHRUB banner" />
+      </figure>
+      <div class="hero-inner">
+        <div class="mascot-wrap">
+          <img class="float-coin c1" src="assets/coin.png" alt="" />
+          <img class="float-coin c2" src="assets/coin.png" alt="" />
+          <img class="float-coin c3" src="assets/coin.png" alt="" />
+          <img class="mascot" src="assets/mascot.png" alt="HOODSHRUB mascot in a Robin Hood hat, holding a tiny bow" />
+          <div class="mascot-shadow"></div>
+        </div>
+        <div>
+          <span class="eyebrow">Community memecoin · Robinhood Chain vibes</span>
+          <h1>HOODSHRUB<span>$HOODSHRUB</span></h1>
+          <p class="ticker">Ticker $HOODSHRUB · CA SHRUBSOON</p>
+          <p class="lead">Peak camouflage and peak content. The little guy is just living his best life and accidentally running the timeline.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#buy">Buy $HOODSHRUB</a>
+            <a class="btn btn-green" href="#camo">Find HOODSHRUB</a>
+            <a class="btn btn-ghost" href="#story">Read the bit</a>
+          </div>
+          <div class="ca-pill">
+            <span>CA</span>
+            <strong>SHRUBSOON</strong>
+            <button type="button" data-copy>Copy</button>
+          </div>
+          <p class="disclaimer-mini">Independent community token. Not affiliated with or endorsed by Robinhood, Shivon Zilis, or any related companies.</p>
+        </div>
+      </div>
+      <div class="scroll-hint">↓ SCROLL TO BLEND IN</div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="wrap story-grid">
+        <div class="photo-frame">
+          <img src="assets/logo.jpg" alt="The real Lil' Shrub hedgehog" />
+          <span class="photo-cap">Lil' Shrub in a shrub</span>
+        </div>
+        <div>
+          <p class="kicker">The bit</p>
+          <h2>A hedgehog, a shrub, and the whole timeline.</h2>
+          <p class="sub">Shivon Zilis posted a photo of her family’s pet hedgehog — widely treated as the household’s “Lil’ Shrub” — held up in front of a green shrub, with the caption “Lil’ Shrub in a shrub.” It’s a simple pun + an extremely cute animal pic. The hedgehog has appeared in her posts before, so this is a recurring wholesome bit rather than a one-off. Crypto accounts immediately started treating it as a ticker event, which is the usual pattern around her Shrub posts.</p>
+          <div class="tweets">
+            <article class="tweet">
+              <p>Lil’ Shrub in a shrub is peak camouflage and peak content. The little guy is just living his best life and accidentally running the timeline.</p>
+              <small>Quote-ready</small>
+            </article>
+            <article class="tweet">
+              <p>Lil’ Shrub mastered blending in. The rest of us are still trying.</p>
+              <small>Short version</small>
+            </article>
+            <article class="tweet">
+              <p>Wholesome, slightly playful, and somehow still a heist: one tiny outlaw in a hat, hiding in plain sight.</p>
+              <small>The $HOODSHRUB energy</small>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="camo" id="camo">
+      <div class="wrap">
+        <p class="kicker">Interactive</p>
+        <h2>Find HOODSHRUB.</h2>
+        <p class="sub">He’s in one of these shrubs. Click around. Peak camouflage is a skill issue.</p>
+        <p class="camo-status" id="camo-status">Six shrubs. One hedgehog. No pressure.</p>
+        <div class="bushes" id="bushes">
+          <button class="bush" style="left:4%; top:40px" aria-label="Shrub 1"> 
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="58" cy="110" rx="50" ry="42" fill="#2f7a32"/><ellipse cx="142" cy="108" rx="52" ry="44" fill="#3f8f3a"/><ellipse cx="100" cy="88" rx="62" ry="52" fill="#4ea536"/><ellipse cx="78" cy="96" rx="22" ry="16" fill="#8ee04a" opacity=".45"/><circle cx="118" cy="74" r="10" fill="#6bbf4e"/></svg>
+          </button>
+          <button class="bush" style="left:22%; top:120px" aria-label="Shrub 2">
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="50" cy="112" rx="48" ry="40" fill="#246b2a"/><ellipse cx="150" cy="114" rx="46" ry="38" fill="#348234"/><ellipse cx="100" cy="90" rx="64" ry="54" fill="#3f8f3a"/><ellipse cx="86" cy="78" rx="18" ry="12" fill="#c8f39a" opacity=".35"/></svg>
+          </button>
+          <button class="bush" style="left:40%; top:28px" aria-label="Shrub 3">
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="62" cy="108" rx="54" ry="44" fill="#3a8a36"/><ellipse cx="138" cy="112" rx="50" ry="42" fill="#2d6d28"/><ellipse cx="100" cy="86" rx="60" ry="50" fill="#57b046"/><circle cx="70" cy="80" r="8" fill="#f5c542"/></svg>
+          </button>
+          <button class="bush" style="left:56%; top:130px" aria-label="Shrub 4">
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="55" cy="116" rx="46" ry="36" fill="#1d5a2e"/><ellipse cx="145" cy="110" rx="50" ry="42" fill="#3f8f3a"/><ellipse cx="100" cy="92" rx="66" ry="50" fill="#348234"/><ellipse cx="110" cy="84" rx="16" ry="11" fill="#8ee04a" opacity=".4"/></svg>
+          </button>
+          <button class="bush" style="left:72%; top:36px" aria-label="Shrub 5">
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="60" cy="108" rx="50" ry="42" fill="#2f7a32"/><ellipse cx="140" cy="106" rx="54" ry="46" fill="#4ea536"/><ellipse cx="98" cy="84" rx="58" ry="48" fill="#3f8f3a"/><circle cx="128" cy="70" r="9" fill="#e23c3c"/></svg>
+          </button>
+          <button class="bush" style="left:84%; top:150px" aria-label="Shrub 6">
+            <svg viewBox="0 0 200 180" aria-hidden="true"><ellipse cx="100" cy="150" rx="70" ry="18" fill="#0a1a0c" opacity=".35"/><ellipse cx="52" cy="114" rx="48" ry="38" fill="#246b2a"/><ellipse cx="148" cy="112" rx="46" ry="40" fill="#57b046"/><ellipse cx="100" cy="90" rx="62" ry="52" fill="#2d6d28"/><ellipse cx="74" cy="88" rx="14" ry="10" fill="#c8f39a" opacity=".4"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="token" id="token">
+      <div class="wrap">
+        <p class="kicker">The token</p>
+        <h2>$HOODSHRUB in the thicket.</h2>
+        <p class="sub">A community memecoin for the recurring wholesome bit. Same energy as a Robin Hood heist, except the loot is vibes and the outlaw is the size of a teacup.</p>
+        <div class="stats">
+          <div class="stat"><span>Name</span><b>HOODSHRUB</b></div>
+          <div class="stat"><span>Ticker</span><b>$HOODSHRUB</b></div>
+          <div class="stat"><span>CA</span><b>SHRUBSOON</b></div>
+          <div class="stat"><span>Tax</span><b>0 / 0</b></div>
+        </div>
+        <div class="gear">
+          <article class="gear-card"><div class="ico">🦔</div><h3>Quills</h3><p>Natural camouflage. Extremely deployable.</p></article>
+          <article class="gear-card"><div class="ico">🎩</div><h3>Hood hat</h3><p>Green felt. Red feather. Main character energy.</p></article>
+          <article class="gear-card"><div class="ico">🏹</div><h3>Tiny bow</h3><p>Always aimed at the timeline.</p></article>
+          <article class="gear-card"><div class="ico">🪙</div><h3>Gold leaf</h3><p>Found in the shrub. Definitely not stolen.</p></article>
+          <article class="gear-card"><div class="ico">🌿</div><h3>The shrub</h3><p>Home base. Hideout. Whole brand.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wanted" id="wanted">
+      <div class="wrap wanted-board">
+        <aside class="poster">
+          <h3>WANTED</h3>
+          <p>cute or alive</p>
+          <img src="assets/logo.jpg" alt="Wanted photo of HOODSHRUB" />
+          <div class="meta">
+            <p><strong>Name:</strong> HOODSHRUB</p>
+            <p><strong>Alias:</strong> $HOODSHRUB</p>
+            <p><strong>Crime:</strong> Running the timeline</p>
+            <p><strong>Reward:</strong> Infinite vibes</p>
+          </div>
+        </aside>
+        <article class="news">
+          <p class="kicker">Sherwood Gazette</p>
+          <h3>HOODSHRUB spotted in a shrub.</h3>
+          <p>Witnesses report a hedgehog held up in front of a green shrub, captioned with a pun so clean it should be illegal. The little guy has appeared in posts before, confirming this is a recurring household bit — not a one-off. Crypto accounts treated it as a ticker event within minutes, which is the usual pattern around Shrub posts.</p>
+          <p class="quote">“Lil’ Shrub in a shrub is peak camouflage and peak content.”</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="buy" id="buy">
+      <div class="wrap">
+        <p class="kicker">How to buy</p>
+        <h2>Join the shrub.</h2>
+        <p class="sub">Always verify the contract before you swap. Until launch, the CA is the placeholder <strong>SHRUBSOON</strong>.</p>
+        <div class="steps">
+          <article class="step"><span class="n">1</span><h3>Grab a wallet</h3><p>Use a wallet that can reach Robinhood Chain when $HOODSHRUB goes live.</p></article>
+          <article class="step"><span class="n">2</span><h3>Get gas</h3><p>Keep a little ETH ready. Outlaws still pay the trail fee.</p></article>
+          <article class="step"><span class="n">3</span><h3>Paste the CA</h3><p>Copy <strong>SHRUBSOON</strong> and check it twice. Fake shrubs are everywhere.</p></article>
+          <article class="step"><span class="n">4</span><h3>Swap + hold</h3><p>Blend in. Live your best life. Accidentally run the timeline.</p></article>
+        </div>
+        <div class="hero-actions" style="margin-top:28px">
+          <button class="btn btn-gold" type="button" data-copy>Copy CA · SHRUBSOON</button>
+          <a class="btn btn-green" href="https://x.com/search?q=%24HOODSHRUB" target="_blank" rel="noopener">Follow the bit</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap">
+        <p class="kicker">FAQ</p>
+        <h2>Questions from the thicket.</h2>
+        <div class="faq-list">
+          <article class="faq-item">
+            <button type="button">Is $HOODSHRUB official? <span>+</span></button>
+            <p class="ans">No. HOODSHRUB is an independent community memecoin. It is not affiliated with, endorsed by, or partnered with Robinhood, Shivon Zilis, or any related company or person.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">What is the contract address? <span>+</span></button>
+            <p class="ans">The current CA placeholder is <strong>SHRUBSOON</strong>. When a live contract is posted, replace this and always verify it on the explorer before trading.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">Why a hedgehog in a hat? <span>+</span></button>
+            <p class="ans">Because “Lil’ Shrub in a shrub” is already a perfect pun, and a Robin Hood hedgehog is the cartoon version of that bit — camouflage, forest, and a tiny outlaw who didn’t ask to run the timeline.</p>
+          </article>
+          <article class="faq-item">
+            <button type="button">Is this financial advice? <span>+</span></button>
+            <p class="ans">No. Memecoins are extremely volatile. Never buy more than you can afford to lose. This site is culture, cartoons, and a cute animal. Not a pitch deck.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand">
+      <img src="assets/logo.jpg" alt="" />
+      HOODSHRUB · $HOODSHRUB
+    </div>
+    <div class="socials">
+      <a class="btn btn-ghost" href="https://x.com/search?q=%24HOODSHRUB" target="_blank" rel="noopener">X / Twitter</a>
+      <button class="btn btn-gold" type="button" data-copy>Copy CA</button>
+    </div>
+    <p>$HOODSHRUB is a community-created memecoin. Always verify the contract address before trading. Not affiliated with or endorsed by Robinhood Markets, Robinhood Chain, Shivon Zilis, or any related companies. Nothing here is financial advice.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
